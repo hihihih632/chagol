@@ -7,7 +7,7 @@ module.exports = {
 	       	role: 0,
 		      shortDescription: "",
 	       	longDescription: "",
-		       category: "dont know ",
+		       category: "box chat",
     },
 	onStart: async function (){},
 	onChat: async function ({ event ,api}) {
@@ -39,11 +39,11 @@ module.exports = {
 
 		if (event.body.toLowerCase().indexOf("cup") !== -1) return api.setMessageReaction("🤫", event.messageID,event.threadID)
 
-    		if (event.body.toLowerCase().indexOf("🥵") !== -1) return api.setMessageReaction("🥵", event.messageID,event.threadID)
+    		if (event.body.toLowerCase().indexOf("sakin") !== -1) return api.setMessageReaction("🥵", event.messageID,event.threadID)
 
-        		if (event.body.toLowerCase().indexOf("❤️") !== -1) return api.setMessageReaction("💚", event.messageID,event.threadID)
+        		if (event.body.toLowerCase().indexOf("zihad") !== -1) return api.setMessageReaction("💚", event.messageID,event.threadID)
 
-        		if (event.body.toLowerCase().indexOf("🖤") !== -1) return api.setMessageReaction("😽", event.messageID,event.threadID)
+        		if (event.body.toLowerCase().indexOf("sakib") !== -1) return api.setMessageReaction("😽", event.messageID,event.threadID)
 
         		if (event.body.toLowerCase().indexOf("hi") !== -1) return api.setMessageReaction("🙈", event.messageID,event.threadID)
 
@@ -77,7 +77,7 @@ if (event.body.toLowerCase().indexOf("pagol") !== -1) return api.setMessageReact
 
     if (event.body.toLowerCase().indexOf("gadha") !== -1) return api.setMessageReaction("😆", event.messageID,event.threadID)
 
-if (event.body.toLowerCase().indexOf("i miss you") !== -1) return api.setMessageReaction("💗", event.messageID,event.threadID)
+if (event.body.toLowerCase().indexOf("i miss you") !== -1) return api.setMessageReaction("🥹", event.messageID,event.threadID)
 
 if (event.body.toLowerCase().indexOf("sad") !== -1) return api.setMessageReaction("😔", event.messageID,event.threadID)
     

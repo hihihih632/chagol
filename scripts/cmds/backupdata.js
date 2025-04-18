@@ -19,10 +19,10 @@ module.exports = {
 
 	langs: {
 		vi: {
-			backedUp: "Đã sao lưu dữ liệu của bot vào thư mục scripts/cmds/tmp"
+			backedUp: "Đã sao lưu dữ liệu của bot vào thư mục scripts/cmds/RANA-BACKUP"
 		},
 		en: {
-			backedUp: "Bot data has been backed up to the scripts/cmds/tmp folder"
+			backedUp: "Bot data has been backed up to the scripts/cmds/RANA-BACKUP folder"
 		}
 	},
 
@@ -34,10 +34,10 @@ module.exports = {
 			dashBoardData.getAll()
 		]);
 
-		const pathThreads = `${__dirname}/tmp/threadsData.json`;
-		const pathUsers = `${__dirname}/tmp/usersData.json`;
-		const pathDashBoard = `${__dirname}/tmp/dashBoardData.json`;
-		const pathGlobal = `${__dirname}/tmp/globalData.json`;
+		const pathThreads = `${__dirname}/RANA-BACKUP/threadsData.json`;
+		const pathUsers = `${__dirname}/RANA-BACKUP/usersData.json`;
+		const pathDashBoard = `${__dirname}/RANA-BACKUP/dashBoardData.json`;
+		const pathGlobal = `${__dirname}/RANA-BACKUP/globalData.json`;
 
 		fs.writeFileSync(pathThreads, JSON.stringify(threadsDataBackup, null, 2));
 		fs.writeFileSync(pathUsers, JSON.stringify(usersDataBackup, null, 2));
